@@ -7,6 +7,18 @@
 }
 
 body {
-    font-family: 'Shadows Into Light', sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300;
+    color: darkbrown;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Shadows Into Light, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }

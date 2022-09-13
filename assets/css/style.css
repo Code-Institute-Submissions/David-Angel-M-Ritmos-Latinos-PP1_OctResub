@@ -11,6 +11,7 @@ h1 {
     font-size: 7rem;
     font-weight: 200;
     color: purple;
+    
 }
 
 body {
@@ -62,4 +63,18 @@ body {
 .navbar ul li:hover::after {
     width: 100%;
 
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: left;
+    color: purple;
+}
+
+.content h2{
+    margin-top: -4%;
+    margin-left: 7%;
+    font-size: 35px;
 }

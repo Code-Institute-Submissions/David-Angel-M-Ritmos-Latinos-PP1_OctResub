@@ -37,4 +37,6 @@ Email Address
 
 credits:
 
-Hover home links from youtube channel https://www.youtube.com/watch?v=PgAZ8KzfhO8
+ Hover home links from youtube channel https://www.youtube.com/watch?v=PgAZ8KzfhO8
+
+ Submit button idea from Code Institute (coders coffee house)

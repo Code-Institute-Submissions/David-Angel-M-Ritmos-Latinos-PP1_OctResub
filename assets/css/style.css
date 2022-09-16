@@ -71,8 +71,6 @@ body {
     }
 }
 
-
-
 .navbar {
     width: 40%;
     margin: auto;
@@ -100,7 +98,6 @@ body {
     content: "";
     height: 3px;
     width: 0;
-    background: purple;
     position: absolute;
     left: 0;
     bottom: -10px;

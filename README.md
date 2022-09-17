@@ -1,16 +1,19 @@
- - [Ritmos Latinos](https://www.ritmoslatinos.com)
+- [Ritmos Latinos](https://www.ritmoslatinos.com)
 
 - Header (icl. people/couple dancing)
 
-#h1 Learn how to dance Latin American Rhythms in a fun way with our classes and workshops.
+# H1 Ritmos Latinos
 
-#h2 About Us
+# H2 Learn how to dance Latin American Rhythms.
+
+# H3 About Us
 
 We are a young group of qualify dancers from different backgrounds in Latin America 
 that decided to embrace our knowledge in terms of teaching and couching people from all ages
 that wants to learn how to dance in a fun, relax and be comfortable way in a great atmosphere.  We have 4 different genres which you can choose from and we also have 3 different levels, beginners, intermediate and advanced so you can choose the one that suits you best.
 
 - used flexbox to create tables
+
 Table
 Opening times:
 Monday to Friday: 12:00 - 14:00 and 17:00 - 21:00
@@ -31,7 +34,8 @@ workshops held on Saturdays at 19:00 onwards.
 
 footer
 
-#h2 Contact us
+# H3 Contact us
+
 LInks to our social media
 Address
 Email Address
@@ -41,4 +45,4 @@ Email Address
 
  Hover home links from youtube channel https://www.youtube.com/watch?v=PgAZ8KzfhO8
 
- Submit button idea from Code Institute (coders coffee house)
+ Submit button idea from Code Institute (Coders Coffeehouse)

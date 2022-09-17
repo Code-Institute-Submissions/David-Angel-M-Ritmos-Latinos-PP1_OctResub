@@ -3,10 +3,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Shadows Into Light', cursive, sans-serif;
+    font-family: "Lucida Sans", sans-serif;
 }
 
-h1 {
+.page-title {
     font-family: 'Shadows Into Light', cursive, sans-serif;
     font-size: 7rem;
     font-weight: 200;
@@ -138,6 +138,10 @@ footer .social-links {
 .sign-up h3 {
     margin-bottom: auto;
 }
+
+/* new style */
+
+.col-4 col-s-12
 
 @media only screen and (max-width: 768px) {
     .home-content {

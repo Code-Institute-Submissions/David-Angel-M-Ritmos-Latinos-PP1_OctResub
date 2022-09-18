@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Lucida Sans", sans-serif;
@@ -13,80 +14,103 @@
     color: purple;
 }
 
+.content {
+    width: 60%;
+    margin-left: 15%;
+    color: black;
+    font-size: 25px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+  }
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+/* .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  } */
+
+  
+
+.footer {
+    background-color: #977049;
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    border: 0px solid black;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #aa1616;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 50%;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(rgba(117, 139, 174, 0.397), rgba(0, 0, 0, 0.75)), url(../images/dancebackground.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 h3 {
-    color: #8CFCFF;
+    color: #aa1616;
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive, sans-serif;
 }
 
-body {
-    background-color: whitesmoke;
-}
-
-.navbar {
-    width: 40%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 40px;
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
-.navbar ul li::after {
-    content: "";
-    height: 3px;
-    width: 0;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
-    width: 100%;
-}
-
-.content {
-    width: 60%;
-    margin-left: 5%;
-    color: #8CFCFF;
-}
-
-.content h2 {
-    font-size: 58px;
-    margin-top: -44px;
-}
-
-.about {
+.sign-up {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    
-}
-
-.about p {
-    font-size: 25px;
-    text-align: inherit;
-    padding: 10%;
-    margin: auto;
+    margin-bottom: 15px;
 }
 
 .social-links img {
-    height: 13px;
+    height: 20px;
     margin: 20px;
     cursor: pointer;
     font-size: 25px;
@@ -97,99 +121,125 @@ body {
     margin-bottom: 10%;
 }
 
-.footer {
-    background-color:darksalmon;
+.about {
+    text-align: center;
 }
 
-footer .social-links {
-    text-align: right;
-    margin-bottom: 50%;
-}
-
-.opening-times {
-    font-size: 25px;
-    color: white;
+.openning-times {
+    margin-left: 530px;
 }
 
 .contact-us {
-    font-size: 50px;
-    text-align: left;
-}
-
-.classes {
-    margin-left: 50%;
-    color: white;
-}
-
-.material-symbols-outlined {
-    font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'48
-}
-
-.inline-content {
-    display: flex;
-    flex-direction: row;
-}
-
-.sign-up {
     text-align: center;
-    margin-bottom: 0;
 }
 
-.sign-up h3 {
-    margin-bottom: auto;
+.col-1 {
+    width: 8.33%;
 }
 
-/* new style */
+.col-2 {
+    width: 16.66%;
+}
 
-.col-4 col-s-12
+.col-3 {
+    width: 25%;
+}
 
-@media only screen and (max-width: 768px) {
-    .home-content {
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    /* For mobile: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
         width: 100%;
     }
 
-    .half-width-content {
-        padding: 16px;
-        color: white;
+
+    .menu-title {
         text-align: center;
     }
 
-    .justify-right {}
-
-    .banner {
-        width: 100%;
-        height: fit-content;
-        background-image: linear-gradient(rgba(117, 139, 174, 0.397), rgba(0, 0, 0, 0.75)), url(../images/dancebackground.jpeg);
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    .home-content {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
+    .menu-links {
+        margin-top: -75px;
+        text-align: center;
     }
 
-    .half-width-content {
-        padding: 32px;
-        width: 50%;
-        color: white;
-        font-size: 25px;
-        
-    }
-
-    .justify-right {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .banner {
-        width: 100%;
-        height: 100vh;
-        background-image: linear-gradient(rgba(117, 139, 174, 0.397), rgba(0, 0, 0, 0.75)), url(../images/dancebackground.jpeg);
-        background-size: cover;
-        background-position: center;
-    }
 }

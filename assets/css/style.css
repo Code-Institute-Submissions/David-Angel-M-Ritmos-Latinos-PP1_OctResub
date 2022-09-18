@@ -17,8 +17,13 @@
 .content {
     width: 60%;
     margin-left: 15%;
-    color: black;
+    color: #ef7d0b;
     font-size: 25px;
+}
+
+.row-about {
+    font-size: 20px;
+    text-align: center;
 }
 
 .row::after {
@@ -127,6 +132,11 @@ h3 {
 
 .openning-times {
     margin-left: 530px;
+    font-size: 20px;
+}
+
+.classes {
+    font-size: 20px;
 }
 
 .contact-us {

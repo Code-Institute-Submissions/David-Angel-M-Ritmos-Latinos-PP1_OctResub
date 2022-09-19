@@ -1,5 +1,8 @@
 - [Ritmos Latinos](https://www.ritmoslatinos.com)
 
+Ritmos Latinos website is created buy a young group of individuals that wants to put their dancing skills to a higher level
+giving the opportunity to all range of people and ages. 
+
 - Header (icl. people/couple dancing)
 
 # H1 Ritmos Latinos
@@ -43,6 +46,27 @@ LInks to our social media
 Address
 Email Address
 Phone
+
+- MEDIA
+
+ /workspace/Ritmos-Latinos-PP1/assets/media
+
+
+- VALIDATOR TESTING
+
+- https://ui.dev/amiresponsive?url=https://8000-davidangelm-ritmoslatin-3ea0aefz1sw.ws-eu64.gitpod.io/#sign-up          ui.dev
+
+- CSS Validator cheched and passed.
+
+- HTML Validator checked, passed but with 1 warning.
+
+- Tested the website in differnte browsers.
+
+- Lighthouse checked and passed.
+
+- DEBUG
+
+ - Had a bug (warning) on line 108/109 of HTML, Couldn't solved it. Other bugs were solved.
 
 
 - credits:

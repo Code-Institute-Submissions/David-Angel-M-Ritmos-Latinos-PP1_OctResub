@@ -61,7 +61,7 @@ nav a {
 .banner {
     width: 100%;
     height: fit-content;
-    background-image: linear-gradient(rgba(117, 139, 174, 0.397), rgba(0, 0, 0, 0.75)), url("../images/dancebackground.jpg");
+    background-image: linear-gradient(rgba(117, 139, 174, 0.397), rgba(0, 0, 0, 0.75)), url("../assets/images/dancebackground.jpg");
     background-size: cover;
     background-position: center;
 }

@@ -10,7 +10,7 @@ giving the opportunity to all range of people and ages.
 
 FINAL RESULT
 
-* Image of the website on different devices
+![Am I Responsive](assets/readme-images/amiresponsive.png)
 
 
 
@@ -42,7 +42,8 @@ To make the site easily accessible from any device.
 
 WIREFRAMES
 
-* pictures of my sketches made by hand
+![Wireframe 1](assets/images/wireframes/wireframedesk.jpeg) 
+![Wireframe 2](assets/images/wireframes/Wireframedesk2.jpeg)
 
 FEATURES
 
@@ -53,7 +54,7 @@ Main content has a background image and text and footer with social media logos/
 
 IMAGES
 
-The background image come from the following website https://www.pexels.com/
+The background image come from the following website [PEXELS](https://www.pexels.com/)
 
 TYPOGRAPHY
 
@@ -88,12 +89,16 @@ Safari
 VALIDATORS
 
 CSS Validator cheched and passed.
+![CSS Validator Results](assets/readme-images/cssvalidator.png)
 HTML Validator checked and passed.
+See below for HTML Validator results.
+
 Lighthouse checked and passed.
+
 
 ACCESSIBILITY
 
-* pending of trial
+![]
 
 
 SOLVED BUGS AND ERRORS
@@ -103,6 +108,9 @@ SOLVED BUGS AND ERRORS
 
 UNSOLVED BUGS AND ERRORS
 
+This warning is because in the above lines it was a patern of 3 rows and that one has only 2.
+This warning does not affect the functionality of the webpage.
+![HTML Warning](assets/readme-images/htmlwarning.png)
 
 
 

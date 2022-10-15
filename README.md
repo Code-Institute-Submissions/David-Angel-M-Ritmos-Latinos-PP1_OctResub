@@ -143,6 +143,7 @@ CREDITS
 Mike Dane Youtuber Software Developer.
 Kevin Powell Youtuber Software Developer (The king of CSS).
 Antonio Rodriguez my mentor.
+Chris williams from slack for his help and guidance.
 Submit button idea from Code Institute (Coders Coffeehouse).
 Examples from Love Runing Project
 W3Schools

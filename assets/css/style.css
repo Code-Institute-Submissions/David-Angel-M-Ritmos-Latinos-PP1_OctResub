@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: #947955;
+    background-color: rgba(148, 121, 85, 0.8);
 }
 
 html {
@@ -67,7 +67,7 @@ nav a {
 }
 
 #about {
-    background-color: #947955;
+    background-color: rgba(148, 121, 85, 0.4);
 }    
 
 .dance-classes {

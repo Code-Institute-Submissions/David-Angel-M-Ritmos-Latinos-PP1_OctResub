@@ -109,6 +109,8 @@ UNSOLVED BUGS AND ERRORS
 This warning is because in the above lines it was a patern of 3 rows and that one has only 2.
 This warning does not affect the functionality of the webpage.
 ![HTML Warning](assets/readme-images/htmlwarning.png)
+Have 3 empty form label errors when checking the site on webaim.org.
+Have 4 errors for the Fontawesome logos in the footer.
 
 
 

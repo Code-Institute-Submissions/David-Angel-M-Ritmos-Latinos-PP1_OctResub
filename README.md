@@ -94,16 +94,14 @@ HTML Validator checked and passed.
 See below for HTML Validator results.
 
 Lighthouse checked and passed.
-
-
-ACCESSIBILITY
-
-![]
+![Ligthhouse Report](assets/readme-images/lighthouse-report.png)
+3 lighthouse errors remain for accesibility with a score of 88.
+![Lighthouse Errors](assets/readme-images/lighthouse-errors.png)
 
 
 SOLVED BUGS AND ERRORS
 
-
+Kept having an error of the image but find that I had 2 image file paths.
 
 
 UNSOLVED BUGS AND ERRORS

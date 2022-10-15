@@ -13,7 +13,6 @@ FINAL RESULT
 ![Am I Responsive](assets/readme-images/amiresponsive.png)
 
 
-
 THE MAIN IDEA 
 
 My initial idea for the project was to create a website to informed and coach people on different kinds of Latin rhythms . My target audience is anyone who is interested in how to learn to dance some of the most well-known genres looking for a warm and fun enviroment. This can be any person of any age, gender and interest level. 
@@ -113,7 +112,6 @@ Have 3 empty form label errors when checking the site on webaim.org.
 Have 4 errors for the Fontawesome logos in the footer.
 
 
-
 FUNCTIONALITY
 
 All links have been hovered over and clicked on to ensure accessibility.
@@ -151,50 +149,3 @@ W3Schools
 YouTube
 Stackoverflow
 Student care, Tutors and the Slack community
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
